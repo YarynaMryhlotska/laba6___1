@@ -26,7 +26,10 @@ void end(int* a, int S, int number, int p)
 {
     cout << endl << "Sum = " << S << endl;
     cout << "number = " << number << endl;
-
+    for (int i = 0; i <= p; i++)
+    {
+        cout << a[i] << ", ";
+    }
 }
 
 int main()
